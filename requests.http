@@ -1,0 +1,12 @@
+## get all messages
+
+POST http://localhost:3000/messages
+content-type: application/json
+
+{
+    "content": "hi there"
+}
+
+GET http://localhost:3000/messages
+
+## create new message
